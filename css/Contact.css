@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+#divContent #divKontaktTekst,#divContent #divKontaktTekst2
+{
+	float:left;
+	margin-top:15px;
+	height:200px;
+	margin-bottom:15px;
+	margin-left:8px;
+	border:thin #0AAAFD solid;
+	width:195px;
+	background-color:#FFF;
+	display:block;
+}
+#divContent #divKontaktTekst table
+{
+	margin-left:5px;
+	margin-top:5px;
+}
+#divContent #divKontaktSlika,#divContent #divKontaktSlika2
+{
+	display:block;
+	float:left;
+	margin-left:8px;
+	margin-top:15px;
+	width:150px;
+	height:180px;
+	padding-top:20px;
+}
+#divContent #divKontaktAdresi
+{
+	display:block;
+	clear:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:#FFF;
+	width:760px;
+	border:thin  #0AAAFD solid;
+}

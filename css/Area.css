@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#FFFFFF none repeat scroll 0 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #7F7772;
+}
+#divArea 
+{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+}
+
+#divHeader
+{
+	display:block;
+	float:left;
+	clear:both;
+	width:800px;
+	height:50px;
+	margin-bottom:5px;
+}
+#divSplash 
+{
+	display:block;
+	clear:left;
+	background:transparent url("../Media/Images/Splash.jpg") no-repeat scroll 0 0;
+	height:180px;
+	margin:0 auto;
+	width:800px;
+}
+#divSplash  p {
+	color:#FFF;
+	line-height:167%;
+	margin-bottom:20px;
+	float:right;
+	font-size:136%;
+	font-weight:bold;
+	height:35px;
+	margin:0;
+	padding:150px 20px 0 50px;
+	text-align:right;
+	width:500px;
+}
+
+#divContent
+{
+	display:block;
+	float:left;
+	width:760px;
+	padding:20px;
+}
+#divContent a 
+{
+	text-decoration:none;
+	color:#999999;
+}
+#divContent a:hover
+{
+	color:#ED2024;
+}
+#divSlika
+{
+	width:500px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#divFooter
+{
+	border-top:5px solid #ED2024;
+	clear:both;
+	margin:0 auto;
+	padding-top:10px;
+	width:800px;
+	font-size:77%;
+}
+
+#divZaNasMeni
+{
+	display:block;
+	width:180px;
+	height:400px;
+	float:left;
+	margin-left:0px;
+	padding:2px;
+}
+
+#divZaNasContent
+{
+	display:block;
+	width:555px;
+	min-height:400px;
+	float:left;
+	margin-left:0px;
+	padding-bottom:10px;
+}
+#divContent #divTekst
+{
+	font-size:125%;
+	color:#0AAAFD;
+	margin-top:10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:760px;
+	line-height:190%;
+}
+#divTabela
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#divTabela #divRed
+{
+	text-align:center;
+	margin-top:5px;
+	width:740px;
+	display:block;
+	clear:both;
+	float:left;
+	border-bottom:solid thin #990000;
+
+}
+#divTabela .opis
+{
+	display:block;
+	width:300px;
+	float:left;
+	clear:left;
+	border-right:thin dotted #990000;
+	padding:3px;
+}
+#divTabela .investitor
+{
+	padding:3px;
+	margin-left:5px;
+	display:block;
+	width:200px;
+	float:left;
+}
+#divTabela .iznos
+{
+	padding:3px;
+	float:left;
+	margin-left:5px;
+	display:block;
+	width:100px;
+	font-weight:bold;
+}
+#divTabela .godina
+{
+	padding:3px;
+	margin-left:5px;
+	width:90px;
+	display:block;
+	float:left;
+	clear:right;
+}
+#divTabela #divRed1
+{
+	text-align:center;
+	margin-top:5px;
+	width:550px;
+	display:block;
+	clear:both;
+	float:left;
+	border-bottom:solid thin #990000;
+}
+#divTabela .opis1
+{
+	display:block;
+	width:230px;
+	float:left;
+	clear:left;
+	border-right:thin dotted #990000;
+	padding:3px;
+	font-size:12px;
+}
+#divTabela .investitor1
+{
+	padding:3px;
+	margin-left:5px;
+	display:block;
+	width:90px;
+	float:left;
+	font-size:12px;
+}
+#divTabela .iznos1
+{
+	padding:3px;
+	float:left;
+	margin-left:5px;
+	display:block;
+	width:90px;
+	font-weight:bold;
+}
+#divTabela .godina1
+{
+	padding:3px;
+	margin-left:5px;
+	width:90px;
+	display:block;
+	float:left;
+	clear:right;
+}
+.naslov {
+	font-size:185%;
+	color:#ED2024;
+	display:block;
+	margin-top:5px;
+	margin-left:120px;
+	
+
+}
+.dodatno {
+	display:inline;
+	margin-left:20px;
+	margin-bottom:0px;
+	font-size:9px;
+}
+.text {
+	margin-left:0px;
+	display:block;
+	clear:right;
+}
+.cena {
+  font-weight:bold;
+  display:block;
+  float:right;
+  clear:both;
+}
+.fin {
+	background-image:url(../Media/finansiski.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.menagerskitim
+{
+	background-image:url(../Media/menagerskitim.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.tehnicki 
+{
+	background-image:url(../Media/alati.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.zanas
+{
+	background-image:url(../Media/zanas.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.direktori
+{
+	background-image:url(../Media/direktori.png);
+	background-repeat:no-repeat;
+	background-position:right;
+
+}
+
+.tehnoloska
+{
+	background-image:url(../Media/transport.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.tabelasliki
+{
+	margin-top:5px;
+}
+.pat
+{
+	background-image:url(../Media/pat.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
